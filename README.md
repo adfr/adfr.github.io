@@ -1,7 +1,7 @@
 # Yo
 I am Adrien, a data science, ML and AI leader
 - ex gojek
-- ex twitter
+- twitter
 
 
 <!---
