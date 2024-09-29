@@ -12,5 +12,3 @@ NLP
 business DS
 learning stuff
 --->
-
-# get in touch
