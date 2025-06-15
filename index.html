@@ -14,7 +14,7 @@
     body {
       font-family: 'JetBrains Mono', 'Courier New', monospace;
       background: #0a0a0a;
-      color: #00ff00;
+      color: #ffffff;
       margin: 0;
       padding: 0;
       overflow-x: hidden;
@@ -34,8 +34,8 @@
           0deg,
           transparent,
           transparent 2px,
-          rgba(0, 255, 0, 0.03) 2px,
-          rgba(0, 255, 0, 0.03) 4px
+          rgba(255, 255, 255, 0.03) 2px,
+          rgba(255, 255, 255, 0.03) 4px
         );
       pointer-events: none;
       z-index: 1;
@@ -45,11 +45,11 @@
       max-width: 800px;
       margin: 40px auto;
       background: #0f0f0f;
-      border: 2px solid #00ff00;
+      border: 2px solid #ffffff;
       border-radius: 8px;
       box-shadow: 
-        0 0 20px rgba(0, 255, 0, 0.5),
-        inset 0 0 20px rgba(0, 255, 0, 0.1);
+        0 0 20px rgba(255, 255, 255, 0.5),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
       padding: 0;
       position: relative;
       z-index: 2;
@@ -57,14 +57,14 @@
     }
     
     @keyframes terminalGlow {
-      from { box-shadow: 0 0 20px rgba(0, 255, 0, 0.5), inset 0 0 20px rgba(0, 255, 0, 0.1); }
-      to { box-shadow: 0 0 30px rgba(0, 255, 0, 0.8), inset 0 0 25px rgba(0, 255, 0, 0.2); }
+      from { box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.1); }
+      to { box-shadow: 0 0 30px rgba(255, 255, 255, 0.8), inset 0 0 25px rgba(255, 255, 255, 0.2); }
     }
     
     .terminal-header {
       background: #1a1a1a;
       padding: 8px 16px;
-      border-bottom: 1px solid #00ff00;
+      border-bottom: 1px solid #ffffff;
       display: flex;
       align-items: center;
       gap: 8px;
@@ -85,7 +85,7 @@
       flex: 1;
       text-align: center;
       font-size: 0.9em;
-      color: #00ff00;
+      color: #ffffff;
       opacity: 0.8;
     }
     
@@ -106,7 +106,7 @@
     }
     
     .prompt {
-      color: #00ff00;
+      color: #ffffff;
       margin: 20px 0 10px 0;
       opacity: 0;
       animation: fadeIn 0.5s forwards;
@@ -114,7 +114,7 @@
     
     .prompt::before {
       content: "$ ";
-      color: #00ff00;
+      color: #ffffff;
       font-weight: bold;
     }
     
@@ -123,29 +123,29 @@
     }
     
     h1 {
-      color: #00ff00;
+      color: #ffffff;
       margin: 0 0 10px 0;
       font-size: 2em;
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
       animation: glitch 2s infinite;
       position: relative;
     }
     
     @keyframes glitch {
-      0%, 100% { text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); }
-      20% { text-shadow: 3px 0 10px rgba(0, 255, 0, 0.8), -3px 0 10px rgba(255, 0, 0, 0.8); }
-      40% { text-shadow: -3px 0 10px rgba(0, 255, 0, 0.8), 3px 0 10px rgba(0, 255, 255, 0.8); }
+      0%, 100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
+      20% { text-shadow: 3px 0 10px rgba(255, 255, 255, 0.8), -3px 0 10px rgba(255, 0, 0, 0.8); }
+      40% { text-shadow: -3px 0 10px rgba(255, 255, 255, 0.8), 3px 0 10px rgba(0, 255, 255, 0.8); }
     }
     
     .subtitle {
-      color: #00ff00;
+      color: #ffffff;
       opacity: 0.8;
       font-size: 1.1em;
       margin-bottom: 20px;
     }
     
     .output {
-      color: #00ff00;
+      color: #ffffff;
       opacity: 0.9;
       line-height: 1.6;
       margin: 10px 0;
@@ -166,13 +166,13 @@
     
     .links a::before {
       content: "[";
-      color: #00ff00;
+      color: #ffffff;
       margin-right: 2px;
     }
     
     .links a::after {
       content: "]";
-      color: #00ff00;
+      color: #ffffff;
       margin-left: 2px;
     }
     
@@ -183,7 +183,7 @@
     }
     
     .section-divider {
-      color: #00ff00;
+      color: #ffffff;
       margin: 30px 0;
       text-align: center;
       opacity: 0.5;
@@ -195,9 +195,9 @@
     }
     
     h2 {
-      color: #00ff00;
+      color: #ffffff;
       margin: 20px 0 15px 0;
-      text-shadow: 0 0 5px rgba(0, 255, 0, 0.6);
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
     }
     
     h2::before {
@@ -208,8 +208,8 @@
     .repo-item {
       margin: 20px 0;
       padding: 15px;
-      border: 1px solid #00ff00;
-      background: rgba(0, 255, 0, 0.05);
+      border: 1px solid #ffffff;
+      background: rgba(255, 255, 255, 0.05);
       transition: all 0.3s;
       position: relative;
       overflow: hidden;
@@ -222,13 +222,13 @@
       left: -100%;
       width: 100%;
       height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.2), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
       transition: left 0.5s;
     }
     
     .repo-item:hover {
-      background: rgba(0, 255, 0, 0.1);
-      box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
       transform: translateX(5px);
     }
     
@@ -249,7 +249,7 @@
     }
     
     .repo-description {
-      color: #00ff00;
+      color: #ffffff;
       opacity: 0.8;
       margin-top: 5px;
       font-size: 0.9em;
@@ -259,7 +259,7 @@
       display: inline-block;
       width: 10px;
       height: 20px;
-      background: #00ff00;
+      background: #ffffff;
       animation: blink 1s infinite;
       vertical-align: text-bottom;
     }
@@ -292,38 +292,9 @@
         font-size: 1.5em;
       }
     }
-    
-    .matrix-rain {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      overflow: hidden;
-      z-index: 0;
-    }
-    
-    .matrix-column {
-      position: absolute;
-      top: -100%;
-      font-size: 20px;
-      color: #00ff00;
-      text-shadow: 0 0 5px #00ff00;
-      animation: matrix-fall linear infinite;
-      opacity: 0.8;
-    }
-    
-    @keyframes matrix-fall {
-      to {
-        top: 100%;
-      }
-    }
   </style>
 </head>
 <body>
-  <div class="matrix-rain" id="matrix"></div>
-  
   <div class="terminal-container">
     <div class="terminal-header">
       <span class="terminal-button close"></span>
@@ -397,24 +368,6 @@
   </div>
   
   <script>
-    // Matrix rain effect
-    const matrix = document.getElementById('matrix');
-    const columns = Math.floor(window.innerWidth / 20);
-    
-    for (let i = 0; i < columns; i++) {
-      const column = document.createElement('div');
-      column.className = 'matrix-column';
-      column.style.left = i * 20 + 'px';
-      column.style.animationDuration = Math.random() * 15 + 10 + 's';
-      column.style.animationDelay = Math.random() * 5 + 's';
-      column.innerHTML = Array.from({length: 30}, () => 
-        String.fromCharCode(Math.random() > 0.5 ? 
-          Math.floor(Math.random() * 26) + 65 : 
-          Math.floor(Math.random() * 10) + 48)
-      ).join('<br>');
-      matrix.appendChild(column);
-    }
-    
     // Typing effect for dynamic elements
     document.querySelectorAll('.prompt').forEach((el, index) => {
       setTimeout(() => {
