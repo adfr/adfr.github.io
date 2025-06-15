@@ -48,8 +48,8 @@
       border: 2px solid #ffffff;
       border-radius: 8px;
       box-shadow: 
-        0 0 20px rgba(255, 255, 255, 0.5),
-        inset 0 0 20px rgba(255, 255, 255, 0.1);
+        0 0 10px rgba(255, 255, 255, 0.2),
+        inset 0 0 10px rgba(255, 255, 255, 0.05);
       padding: 0;
       position: relative;
       z-index: 2;
@@ -57,8 +57,8 @@
     }
     
     @keyframes terminalGlow {
-      from { box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.1); }
-      to { box-shadow: 0 0 30px rgba(255, 255, 255, 0.8), inset 0 0 25px rgba(255, 255, 255, 0.2); }
+      from { box-shadow: 0 0 10px rgba(255, 255, 255, 0.2), inset 0 0 10px rgba(255, 255, 255, 0.05); }
+      to { box-shadow: 0 0 15px rgba(255, 255, 255, 0.3), inset 0 0 12px rgba(255, 255, 255, 0.1); }
     }
     
     .terminal-header {
@@ -126,15 +126,15 @@
       color: #ffffff;
       margin: 0 0 10px 0;
       font-size: 2em;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
       animation: glitch 2s infinite;
       position: relative;
     }
     
     @keyframes glitch {
-      0%, 100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
-      20% { text-shadow: 3px 0 10px rgba(255, 255, 255, 0.8), -3px 0 10px rgba(255, 0, 0, 0.8); }
-      40% { text-shadow: -3px 0 10px rgba(255, 255, 255, 0.8), 3px 0 10px rgba(0, 255, 255, 0.8); }
+      0%, 100% { text-shadow: 0 0 5px rgba(255, 255, 255, 0.3); }
+      20% { text-shadow: 2px 0 5px rgba(255, 255, 255, 0.3), -2px 0 5px rgba(255, 0, 0, 0.3); }
+      40% { text-shadow: -2px 0 5px rgba(255, 255, 255, 0.3), 2px 0 5px rgba(0, 255, 255, 0.3); }
     }
     
     .subtitle {
@@ -178,7 +178,7 @@
     
     .links a:hover {
       color: #ffffff;
-      text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+      text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
       transform: translateX(5px);
     }
     
@@ -197,7 +197,7 @@
     h2 {
       color: #ffffff;
       margin: 20px 0 15px 0;
-      text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+      text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
     }
     
     h2::before {
@@ -222,13 +222,13 @@
       left: -100%;
       width: 100%;
       height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
       transition: left 0.5s;
     }
     
     .repo-item:hover {
       background: rgba(255, 255, 255, 0.1);
-      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
       transform: translateX(5px);
     }
     
@@ -245,7 +245,7 @@
     
     .repo-link:hover {
       color: #ffffff;
-      text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+      text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
     }
     
     .repo-description {
